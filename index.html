@@ -17,6 +17,7 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
 		<link rel="stylesheet" type="text/css" href="css/skills.css" />
 		<link href='http://fonts.googleapis.com/css?family=Electrolize' rel='stylesheet' type='text/css' />
+
 	</head>
 	<body>
 		<!-- top bar -->
@@ -39,10 +40,11 @@
 			<ul id="navigation">
 				<li><a id="link-home" href="#home">Home</a></li>
                 <li><a id="link-about" href="#about">About Me</a></li>
-                <li><a id="link-skills" href="#skills">Skills</a></li>
+                <li><a id="link-skills" href="#skills" onclick="animate();">Skills</a></li>
                 <li><a id="link-portfolio" href="#portfolio">Portfolio</a></li>
 				<li><a id="link-contact" href="#contact">Contact</a></li>
 			</ul>
+            <a href="http://gr.linkedin.com/pub/fotis-adamakis/33/993/96"><div id="linkedin"></div></a>
 		</div>
 
 
@@ -74,7 +76,7 @@
 		<!-- skills -->
 		<div id="skills" class="panel">
 			<div class="content">
-                <div id="myskills" class="myskills">
+                <div id="myskills" class="">
                     <div class="col">
                         <h2>My Skills</h2>
                         <ul id="skill">
@@ -125,6 +127,10 @@
 			</div>
 		</div>
 		<!-- /Contact -->
-
+        <script>
+            function animate(){
+            document.getElementById("myskills").className = "myskills";
+            }
+        </script>
 	</body>
 </html>

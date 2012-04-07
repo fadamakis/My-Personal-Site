@@ -5,7 +5,6 @@
     float:left;
     font-size:12px;
     line-height:2em;
-    padding:30px 0 30px;
 }
 
 .col { width:400px; }
@@ -41,15 +40,15 @@
     box-shadow:0px 0px 10px 1px rgba(0,198,255,0.4);
 }
 
-.html5       { width:85%;  -moz-animation:html5 2s ease-out;       -webkit-animation:html5 2s ease-out;       }
-.css3        { width:95%;  -moz-animation:css3 2s ease-out;        -webkit-animation:css3 2s ease-out;        }
-.jquery      { width:94%;  -moz-animation:jquery 2s ease-out;      -webkit-animation:jquery 2s ease-out;      }
-.theming    { width:90%; -moz-animation:theming 2s ease-out;    -webkit-animation:theming 2s ease-out; }
-.mobile    { width:80%; -moz-animation:mobile 2s ease-out;    -webkit-animation:mobile 2s ease-out; }
-.design    { width:60%; -moz-animation:design 2s ease-out;    -webkit-animation:design 2s ease-out; }
-.front    { width:92%; -moz-animation:front 2s ease-out;    -webkit-animation:front 2s ease-out; }
-.seo    { width:84%; -moz-animation:seo 2s ease-out;    -webkit-animation:seo 2s ease-out; }
-.logo    { width:50%; -moz-animation:logo 2s ease-out;    -webkit-animation:logo 2s ease-out; }
+.myskills .html5       { width:85%;  -moz-animation:html5 2s ease-out;       -webkit-animation:html5 2s ease-out;       }
+.myskills .css3        { width:95%;  -moz-animation:css3 2s ease-out;        -webkit-animation:css3 2s ease-out;        }
+.myskills .jquery      { width:94%;  -moz-animation:jquery 2s ease-out;      -webkit-animation:jquery 2s ease-out;      }
+.myskills .theming    { width:90%; -moz-animation:theming 2s ease-out;    -webkit-animation:theming 2s ease-out; }
+.myskills .mobile    { width:80%; -moz-animation:mobile 2s ease-out;    -webkit-animation:mobile 2s ease-out; }
+.myskills .design    { width:60%; -moz-animation:design 2s ease-out;    -webkit-animation:design 2s ease-out; }
+.myskills .front    { width:92%; -moz-animation:front 2s ease-out;    -webkit-animation:front 2s ease-out; }
+.myskills .seo    { width:84%; -moz-animation:seo 2s ease-out;    -webkit-animation:seo 2s ease-out; }
+.myskills .logo    { width:50%; -moz-animation:logo 2s ease-out;    -webkit-animation:logo 2s ease-out; }
 
 @-moz-keyframes html5       { 0%  { width:0px;} 100%{ width:85%;}  }
 @-moz-keyframes css3        { 0%  { width:0px;} 100%{ width:95%;}  }

@@ -25,7 +25,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="52" selection-start="1430" selection-end="1430" vertical-scroll-proportion="15.916667">
+            <state line="42" column="74" selection-start="1754" selection-end="1754" vertical-scroll-proportion="-10.958333">
               <folding />
             </state>
           </provider>
@@ -43,7 +43,7 @@
       <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="200" column="28" selection-start="3608" selection-end="3608" vertical-scroll-proportion="0.5">
+            <state line="56" column="18" selection-start="1131" selection-end="1131" vertical-scroll-proportion="0.6052632">
               <folding />
             </state>
           </provider>
@@ -52,7 +52,7 @@
       <file leaf-file-name="skills.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/skills.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="11" selection-start="17" selection-end="22" vertical-scroll-proportion="0.0">
+            <state line="50" column="10" selection-start="1599" selection-end="1599" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -73,8 +73,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/css/skills.css" />
         <option value="$PROJECT_DIR$/css/base.css" />
+        <option value="$PROJECT_DIR$/css/skills.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
       </list>
@@ -173,7 +173,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="25" width="1368" height="744" extended-state="7" />
+    <frame x="-1" y="25" width="1368" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -254,19 +254,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/skills.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="11" selection-start="17" selection-end="22" vertical-scroll-proportion="0.0" />
+        <state line="50" column="10" selection-start="1599" selection-end="1599" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="52" selection-start="1430" selection-end="1430" vertical-scroll-proportion="15.916667">
+        <state line="42" column="74" selection-start="1754" selection-end="1754" vertical-scroll-proportion="-10.958333">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="200" column="28" selection-start="3608" selection-end="3608" vertical-scroll-proportion="0.5">
+        <state line="56" column="18" selection-start="1131" selection-end="1131" vertical-scroll-proportion="0.6052632">
           <folding />
         </state>
       </provider>

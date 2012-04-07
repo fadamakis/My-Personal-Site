@@ -44,10 +44,18 @@ body {
     margin-bottom: 6px;
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
     font-size: 14px;
+    transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;    /* FF3.7+ */
+    -o-transition: all 0.3s linear;      /* Opera 10.5 */
+    -webkit-transition: all 0.3s linear; /* Saf3.2+, Chrome */
+
 }
 
 #navigation a:hover {
-    background: #ddd;
+    background: #2187E7;
+    color: #fff;
+    padding: 0px 30px;
+
 }
 
 .content {
@@ -78,7 +86,7 @@ body {
     margin: 3px 0px;
 }
 
-.content a {
+ a {
     color: #2187e7;
 
 }
@@ -203,6 +211,8 @@ mark {
     /* shadow */
     -moz-box-shadow: 0 0 1em #888;
     -webkit-box-shadow: 0 0 1em #888;
+    /*move top of every page*/
+    z-index: 3;
 }
 .ribbon a {
     border: 1px solid #faa;
@@ -215,4 +225,18 @@ mark {
     text-decoration: none;
     /* shadow */
     text-shadow: 0 0 0.5em #444;
+}
+
+#linkedin{
+    background: url("../images/lout.png") 50% no-repeat;
+    width: 240px;
+    height: 128px;
+    transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;    /* FF3.7+ */
+    -o-transition: all 0.2s linear;      /* Opera 10.5 */
+    -webkit-transition: all 0.2s linear; /* Saf3.2+, Chrome */
+}
+
+#linkedin:hover{
+    background: url("../images/lin.png") 50% no-repeat;
 }
