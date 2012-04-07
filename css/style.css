@@ -214,7 +214,7 @@ mark {
     /*move top of every page*/
     z-index: 3;
 }
-.ribbon a {
+.ribbon span {
     border: 1px solid #faa;
     color: #fff;
     display: block;
