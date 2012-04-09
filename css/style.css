@@ -406,3 +406,51 @@ mark {
 @-webkit-keyframes front    { 0%  { width:0px;} 100%{ width:92%;} }
 @-webkit-keyframes seo    { 0%  { width:0px;} 100%{ width:84%;} }
 @-webkit-keyframes logo    { 0%  { width:0px;} 100%{ width:50%;} }
+
+
+.cv {
+    background-color:#3bb3e0;
+    font-size:12px;
+    text-decoration:none;
+    color:#fff;
+    position:relative;
+    padding:10px 20px;
+    border-left:solid 1px #2ab7ec;
+    margin-left:35px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #156785, 0px 10px 5px #999;
+    height:26px;
+
+}
+
+.cv:active {
+    top:3px;
+    box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #156785, 0px 5px 3px #999;
+}
+
+.cv::before {
+    content:" CV";
+    width:35px;
+    height:26px;
+    position:absolute;
+    display:block;
+    padding:8px 0 0 8px;
+    top:0px;
+    left:-36px;
+    font-size:16px;
+    font-weight:bold;
+    color:#8fd1ea;
+    text-shadow:1px 1px 0px #07526e;
+    border-right:solid 1px #07526e;
+    background-color:#21759B;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    box-shadow:inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #032b3a, 0px 10px 5px #999 ;
+}
+
+.cv:active::before {
+    top:-3px;
+    box-shadow:inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #032b3a, 1px 1px 0px 0px #044a64, 2px 2px 0px 0px #044a64, 2px 5px 0px 0px #044a64, 6px 4px 2px #0b698b, 0px 10px 5px #999 ;
+}
+
