@@ -20,11 +20,11 @@ a{
     text-transform: uppercase;
     z-index: 9999;
     position: fixed;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 24px;
-    box-shadow: 1px 0px 2px rgba(0,0,0,0.2);
+    box-shadow: 1px 0 2px rgba(0,0,0,0.2);
     -webkit-animation: slideOut 0.5s ease-in-out 0.3s backwards;
     -moz-animation: slideOut 0.5s ease-in-out 0.3s backwards;
     -o-animation: slideOut 0.5s ease-in-out 0.3s backwards;
@@ -32,7 +32,7 @@ a{
     animation: slideOut 0.5s ease-in-out 0.3s backwards;
     letter-spacing: 1px;
     color: #333;
-    text-shadow: 0px 1px 1px #fff;
+    text-shadow: 0 1px 1px #fff;
     display: block;
 }
 #top strong{
@@ -87,7 +87,7 @@ body {
     font-weight: 400;
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.9);
-    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
     padding: 20px;
     background: #000;
 }
@@ -106,7 +106,7 @@ body {
     background: #fff;
     background: rgba(255, 255, 255, 0.9);
     line-height: 50px;
-    padding: 0px 20px;
+    padding: 0 20px;
     text-transform: uppercase;
     margin-bottom: 6px;
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
@@ -121,25 +121,25 @@ body {
 #navigation a:hover {
     background: #2187E7;
     color: #fff;
-    padding: 0px 30px;
+    padding: 0 30px;
 
 }
 
 .content {
     right: 40px;
     left: 280px;
-    top: 0px;
+    top: 0;
     position: absolute;
     padding-bottom: 30px;
 }
 
 .content h2 {
     font-size: 110px;
-    padding: 10px 0px 20px 0px;
+    padding: 10px 0 20px 0;
     margin-top: 52px;
     color: #fff;
     color: rgba(255, 255, 255, 0.9);
-    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
 }
 
 .content p {
@@ -150,7 +150,7 @@ body {
     display: inline-block;
     background: black;
     padding: 10px;
-    margin: 3px 0px;
+    margin: 3px 0;
 }
 
  a {
@@ -166,7 +166,7 @@ body {
     margin-top: -150%;
     position: absolute;
     background: #000;
-    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.6);
     z-index: 2;
     -webkit-transition: all .8s ease-in-out;
     -moz-transition: all .8s ease-in-out;
@@ -189,7 +189,7 @@ body {
 }
 
 #works {
-    padding: 15px 0px;
+    padding: 15px 0;
     width:835px;
 }
 
@@ -374,7 +374,7 @@ mark {
     margin:2px 0;
     background:#2187e7;
     position:absolute;
-    box-shadow:0px 0px 10px 1px rgba(0,198,255,0.4);
+    box-shadow:0px 0 10px 1px rgba(0,198,255,0.4);
 }
 
 .myskills .html5       { width:85%;  -moz-animation:html5 2s ease-out;       -webkit-animation:html5 2s ease-out;       }
