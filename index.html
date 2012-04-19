@@ -2,19 +2,32 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<title>Fotis Adamakis - Front End Developer Greece</title>
+		<title>Fotis Adamakis - Front End Developer - Greece</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-		<meta name="description" content="Fotis Adamakis - Front End Developer / Web Designer in Greece" />
-		<meta name="keywords" content="Front End Developer, Web Designer, HTML5, CSS3, jQuery, Greece, greek" />
-		<meta name="author" content="Fotis Adamakis" />
+		<meta name="description" content="Fotis Adamakis - Front End Developer/Web Designer in Greece" />
+		<meta name="keywords" content="Front End Developer, Web Designer, HTML5, CSS3, jQuery, Greece, greek ,fotis adamakis , fadamakis" />
+		<meta name="author" content="fotis" />
 		<link rel="shortcut icon" href="favicon.ico">
 
 		<link rel="stylesheet" type="text/css" href="css/mobile.css" />
-        <!--[if !IE]><!-->
-        <link rel="stylesheet" type="text/css" href="css/style.css"  media="only screen and (min-width: 767px)" />
-        <!--<![endif]-->
-		<link href='http://fonts.googleapis.com/css?family=Electrolize' rel='stylesheet' type='text/css' />
 
+        <link rel="stylesheet" type="text/css" href="css/style.css"  media="only screen and (min-width: 767px)" />
+
+		<link href='http://fonts.googleapis.com/css?family=Electrolize' rel='stylesheet' type='text/css' />
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-30718592-1']);
+  _gaq.push(['_setDomainName', 'fadamakis.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
 	</head>
 	<body>
 		<!-- top bar -->
@@ -30,7 +43,18 @@
             <span>Under Construction!</span>
         </div>
 
-
+ <!-- Header with Navigation -->
+        <div id="header">
+            <h1>Fotis Adamakis</h1>
+            <ul id="navigation">
+                <li><a id="link-home" href="#home">Home</a></li>
+                <li><a id="link-about" href="#about">About Me</a></li>
+                <li><a id="link-skills" href="#skills" onclick="animate();">Skills</a></li>
+                <li><a id="link-portfolio" href="#portfolio">Portfolio</a></li>
+                <li><a id="link-contact" href="#contact">Contact</a></li>
+            </ul>
+            <a href="http://gr.linkedin.com/pub/fotis-adamakis/33/993/96" target="_blank"><div id="linkedin"></div></a>
+        </div>
 
 				
 		<!-- Home -->
@@ -118,23 +142,17 @@
 
 
 
-        <!-- Header with Navigation -->
-        <div id="header">
-            <h1>Fotis Adamakis</h1>
-            <ul id="navigation">
-                <li><a id="link-home" href="#home">Home</a></li>
-                <li><a id="link-about" href="#about">About Me</a></li>
-                <li><a id="link-skills" href="#skills" onclick="animate();">Skills</a></li>
-                <li><a id="link-portfolio" href="#portfolio">Portfolio</a></li>
-                <li><a id="link-contact" href="#contact">Contact</a></li>
-            </ul>
-            <a href="http://gr.linkedin.com/pub/fotis-adamakis/33/993/96" target="_blank"><div id="linkedin"></div></a>
-        </div>
+       
 
         <script>
-            function animate(){
-            document.getElementById("myskills").className = "myskills";
-            }
-        </script>
-	</body>
+            	function animate(){
+            		document.getElementById("myskills").className = "myskills";
+           	 }
+
+	    	img = new Image();
+		img.src = "images/social/lin.png";
+
+
+	</script>
+</body>
 </html>
