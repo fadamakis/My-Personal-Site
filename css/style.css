@@ -1,9 +1,15 @@
+/*font*/
+@font-face {
+    font-family: "fadamakis";
+    src: url("../fonts/pinfont.otf");
+}
+
 
 /* General Style */
 body{
-    font-family: 'Electrolize', Arial, sans-serif;
+    font-family: 'fadamakis', Arial, sans-serif;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 16px;
     color: #fff;
 }
 a{
@@ -16,7 +22,7 @@ a{
 #top{
     line-height: 24px;
     font-size: 11px;
-    background: rgba(255, 255, 255, 1);
+    background: #2d2d2d;
     text-transform: uppercase;
     z-index: 9999;
     position: fixed;
@@ -24,16 +30,16 @@ a{
     left: 0;
     width: 100%;
     height: 24px;
-    box-shadow: 1px 0 2px rgba(0,0,0,0.2);
     -webkit-animation: slideOut 0.5s ease-in-out 0.3s backwards;
     -moz-animation: slideOut 0.5s ease-in-out 0.3s backwards;
     -o-animation: slideOut 0.5s ease-in-out 0.3s backwards;
     -ms-animation: slideOut 0.5s ease-in-out 0.3s backwards;
     animation: slideOut 0.5s ease-in-out 0.3s backwards;
     letter-spacing: 1px;
-    color: #333;
-    text-shadow: 0 1px 1px #fff;
+    color: #bbb;
     display: block;
+    border-bottom: 1px solid #2187E7;
+
 }
 #top strong{
     padding: 0 10px;
@@ -74,23 +80,6 @@ body {
     overflow: hidden;
 }
 
-#header {
-    position: absolute;
-    z-index: 2000;
-    width: 235px;
-    top: 50px;
-    display: block;
-}
-
-#header h1 {
-    font-size: 30px;
-    font-weight: 400;
-    text-transform: uppercase;
-    color: rgba(255, 255, 255, 0.9);
-    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
-    padding: 20px;
-    background: #000;
-}
 
 #navigation {
     margin-top: 20px;
@@ -102,11 +91,11 @@ body {
 
 #navigation a {
     color: #444;
-    display: block;
+    display: inline-block;
     background: #fff;
     background: rgba(255, 255, 255, 0.9);
     line-height: 50px;
-    padding: 0 20px;
+    padding: 0 20px 0 50px;
     text-transform: uppercase;
     margin-bottom: 6px;
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
@@ -121,7 +110,7 @@ body {
 #navigation a:hover {
     background: #2187E7;
     color: #fff;
-    padding: 0 30px;
+    padding: 0 50px;
 
 }
 
@@ -131,6 +120,7 @@ body {
     top: 0;
     position: absolute;
     padding-bottom: 30px;
+    max-width: 960px;
 }
 
 .content h2 {
@@ -143,7 +133,7 @@ body {
 }
 
 .content p {
-    font-size: 18px;
+    font-size: 20px;
     padding: 10px;
     line-height: 24px;
     color: #fff;
@@ -163,7 +153,9 @@ body {
     background-color: rgba(0, 0, 0, 0.2);
 
 }
-
+#about p{
+    line-height: 30px;
+}
  a {
     color: #2187e7;
 
@@ -220,7 +212,7 @@ body {
     background: rgba(255, 255, 255, 0.9);
 }
 #works p{
-    font-size: 12px;
+    font-size: 18px;
 }
 #home p{
     display:inline-block;
@@ -257,7 +249,7 @@ body {
 mark {
     background-color: #2187E7;
     border: 1px solid #ccc;
-    padding: 0 3px;
+    padding:5px 3px 0 3px;
     -webkit-border-radius: 8px 0;
     -moz-border-radius: 8px 0;
     border-radius: 8px 0;
@@ -362,7 +354,9 @@ mark {
     line-height:2em;
 }
 
-.col { width:400px; }
+.col {
+    width:550px;
+}
 #skills h2{
     font-size:50px;
 }
@@ -472,3 +466,26 @@ mark {
     box-shadow:inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #032b3a, 1px 1px 0px 0px #044a64, 2px 2px 0px 0px #044a64, 2px 5px 0px 0px #044a64, 6px 4px 2px #0b698b, 0px 10px 5px #222 ;
 }
 
+
+
+#header {
+    position: absolute;
+    z-index: 2000;
+    width: 235px;
+    top: 50px;
+    display: block;
+}
+
+#header h1 {
+    font-size: 30px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.9);
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    border-radius: 0 5px 5px 0;
+    -moz-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
+    -webkit-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
+    -o-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
+    box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
+    background: black;
+}
