@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="edba697e-05eb-4f9a-932b-b695b7a40327" name="Default" comment="removed reset.css">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio.zip" afterPath="$PROJECT_DIR$/portfolio.zip" />
     </list>
     <ignored path="portfolio.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -67,10 +65,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="484" column="22" selection-start="11458" selection-end="11458" vertical-scroll-proportion="0.6616541">
+            <state line="484" column="22" selection-start="11458" selection-end="11458" vertical-scroll-proportion="-14.08">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="arxiki.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/arxiki.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="71" column="36" selection-start="2918" selection-end="2918" vertical-scroll-proportion="0.3095685">
               <folding />
             </state>
           </provider>
@@ -99,6 +106,7 @@
         <option value="$PROJECT_DIR$/css/mobile.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/arxiki.html" />
       </list>
     </option>
   </component>
@@ -325,7 +333,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="484" column="22" selection-start="11458" selection-end="11458" vertical-scroll-proportion="0.6616541">
+        <state line="484" column="22" selection-start="11458" selection-end="11458" vertical-scroll-proportion="-14.08">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arxiki.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="36" selection-start="2918" selection-end="2918" vertical-scroll-proportion="0.3095685">
           <folding />
         </state>
       </provider>
