@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="edba697e-05eb-4f9a-932b-b695b7a40327" name="Default" comment="removed reset.css">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio.zip" afterPath="$PROJECT_DIR$/portfolio.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arxiki.html" afterPath="$PROJECT_DIR$/arxiki.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="portfolio.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,13 +28,8 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="22" selection-start="2369" selection-end="2369" vertical-scroll-proportion="-13.75">
-              <folding>
-                <element signature="tag#div#5;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#6;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#7;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#script#0;tag#body#0;tag#html#0" expanded="false" />
-              </folding>
+            <state line="55" column="22" selection-start="2369" selection-end="2369" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -44,7 +37,7 @@
       <file leaf-file-name="portfolio.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/portfolio.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="280" column="52" selection-start="6051" selection-end="6081" vertical-scroll-proportion="-0.625">
+            <state line="280" column="52" selection-start="6051" selection-end="6081" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -71,7 +64,7 @@
       <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="122" column="14" selection-start="2379" selection-end="2379" vertical-scroll-proportion="0.5206767">
+            <state line="244" column="14" selection-start="4810" selection-end="4810" vertical-scroll-proportion="0.4174573">
               <folding />
             </state>
           </provider>
@@ -80,7 +73,7 @@
       <file leaf-file-name="arxiki.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/arxiki.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="22" selection-start="2381" selection-end="2381" vertical-scroll-proportion="-10.0">
+            <state line="55" column="22" selection-start="2381" selection-end="2381" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -107,18 +100,16 @@
         <option value="$PROJECT_DIR$/portfolio.html" />
         <option value="$PROJECT_DIR$/css/portfolio.css" />
         <option value="$PROJECT_DIR$/css/mobile.css" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/arxiki.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
-    <option name="y" value="25" />
-    <option name="width" value="1368" />
-    <option name="height" value="744" />
+    <option name="width" value="1366" />
+    <option name="height" value="743" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -146,7 +137,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -181,6 +171,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -229,14 +220,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="25" width="1368" height="744" extended-state="6" />
-    <editor active="false" />
+    <frame x="0" y="0" width="1366" height="743" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34218514" sideWeight="0.0" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35410336" sideWeight="0.0" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -305,9 +296,14 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/mobile.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="0" selection-start="1819" selection-end="1819" vertical-scroll-proportion="0.0" />
+        <state line="55" column="22" selection-start="2369" selection-end="2369" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="280" column="52" selection-start="6051" selection-end="6081" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/portfolio.css">
@@ -315,35 +311,19 @@
         <state line="5" column="1" selection-start="94" selection-end="290" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/portfolio.html">
+    <entry file="file://$PROJECT_DIR$/css/mobile.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="280" column="52" selection-start="6051" selection-end="6081" vertical-scroll-proportion="-0.625">
-          <folding />
-        </state>
+        <state line="109" column="0" selection-start="1819" selection-end="1819" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/arxiki.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="22" selection-start="2381" selection-end="2381" vertical-scroll-proportion="-10.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="22" selection-start="2369" selection-end="2369" vertical-scroll-proportion="-13.75">
-          <folding>
-            <element signature="tag#div#5;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#6;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#7;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#script#0;tag#body#0;tag#html#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="55" column="22" selection-start="2381" selection-end="2381" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="122" column="14" selection-start="2379" selection-end="2379" vertical-scroll-proportion="0.5206767">
+        <state line="244" column="14" selection-start="4810" selection-end="4810" vertical-scroll-proportion="0.4174573">
           <folding />
         </state>
       </provider>
