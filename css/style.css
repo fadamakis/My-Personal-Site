@@ -429,19 +429,11 @@ img.icon_img {
 	color:#646464;
 	font-family: 'Rouge Script', cursive;
 	font-size: 24px;
-}
-.testim_block span {
-	position:absolute;
-	bottom:-27px;
-	right:0;
-	display:block;
-	width:36px;
-	height:27px;
-	background:url(../images/testim_span_bg.png) no-repeat;
+	border-left: 3px solid #222222;
 }
 .author {
 	float:right;
-	margin-top:29px;
+	margin-top:15px;
 	color:#363535;
 }
 .about_me{
