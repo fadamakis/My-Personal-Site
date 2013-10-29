@@ -45,6 +45,8 @@ img {
 }
 a:link {
 	text-decoration: none;
+	color:#929292;
+	
 }
 a:hover {
 	color:#c84942;
