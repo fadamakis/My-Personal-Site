@@ -522,7 +522,7 @@ img.icon_img {
 }
 #slide6 .exhib_line_center {
 	background:#676767;
-	height:80%;
+	height:100%;
 }
 #slide6 .exhib_date_right, #slide6 .exhib_date_left, #slide6 .exhib_date_top {
 	width:200px;
@@ -1029,7 +1029,8 @@ img.icon_img {
 	margin:0;
 	text-transform:uppercase;
 	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-	font-size: 48px;
+	font-size: 32px;
+	line-height: 1.6;
 	line-height: 40px;
 	font-weight: 300;
 	text-align:center;
