@@ -334,7 +334,7 @@ img.icon_img {
 }
 
 #slide1{
-	background: #7d7d7d url(../images/slide/slide.jpg);
+	background: #7d7d7d url(../images/main.jpg);
 	/*background-position:0 0 !important;*/
 	background-size: cover !important;
 	width:100%;
