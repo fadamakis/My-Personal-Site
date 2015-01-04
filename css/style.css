@@ -351,6 +351,10 @@ img.icon_img {
 	text-align:center;
 	left: 50%;
 	margin-left: -452px;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+	padding: 20px 0;
+	top: -150px;
 }
 
 #slide1 h1 {
@@ -362,7 +366,7 @@ img.icon_img {
 	text-align:center;
 	text-transform:uppercase;
 	font-size: 105px;
-	line-height: 149px;
+	line-height: 1;
 	color:#fff;
 	font-weight:900;
 }
@@ -370,7 +374,6 @@ img.icon_img {
 	margin:0;
 	padding:0 0 30px;
 	text-align:center;
-	border-bottom:1px solid #ffffff;
 	text-transform:uppercase;
 	font-size: 24px;
 	line-height: 30px;
