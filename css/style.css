@@ -785,6 +785,7 @@ img.icon_img {
 /* ____________________________________ Slide 10 ____________________________________ */
 
 #slide10 {
+	display: none;
 	background:url(../images/slide10_bg.jpg) repeat left top;
 	width:100%;
 	padding:86px 0 69px;
