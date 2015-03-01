@@ -103,6 +103,16 @@ section{
 	font-family: Georgia; 
 }
 
+#skills .col{
+	text-align: center;
+}
+
+#skills h4{
+	font-size: 24px;
+	font-weight: 200;
+	color: #667;
+}
+
 footer.page-footer{
 	background: #23b7d9;
 	position: relative;
@@ -119,9 +129,10 @@ footer.page-footer{
 .social h2 {
 	padding-left: 40px;
 	display: inline-block;
-	font-size: 36px;
+	font-size: 32px;
 	color: #FFF;
 	margin: 0;
+	font-weight: 200;
 }
 
 
@@ -131,3 +142,4 @@ footer.page-footer{
 .social .linkedin h2 {
 		background: url(../images/linkedin.png) left center no-repeat;
 }
+
