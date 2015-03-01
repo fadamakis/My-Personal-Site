@@ -108,3 +108,26 @@ footer.page-footer{
 	position: relative;
 	margin-top: 0;
 }
+
+.social {
+	text-align: center;
+}
+.social p{
+	color: #FFF;
+}
+
+.social h2 {
+	padding-left: 40px;
+	display: inline-block;
+	font-size: 36px;
+	color: #FFF;
+	margin: 0;
+}
+
+
+.social .twitter h2 {
+		background: url(../images/twitter.png) left center no-repeat;
+}
+.social .linkedin h2 {
+		background: url(../images/linkedin.png) left center no-repeat;
+}
