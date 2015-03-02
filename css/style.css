@@ -52,10 +52,7 @@ section{
 }
 
 #intro {
-	position: fixed;
 	top: 0;
-	height: 100%;
-
 	background-color: #23b7d9;
 	-webkit-transition: background-color 500ms ease-in;
 	-moz-transition: background-color 500ms ease-in;
@@ -63,6 +60,20 @@ section{
 	-ms-transition: background-color 500ms ease-in;
 	transition: background-color 500ms ease-in;
 }
+#push {
+	display: none;
+}
+
+@media only screen and (min-width : 600px) {
+  #intro {
+  	position: fixed;
+  	height: 100%;
+  }
+  #push{
+  	display: block;
+  }
+}
+
 
 #intro.faded{
 	background-color: #23b7d9;
@@ -89,7 +100,9 @@ section{
 .card p, 
 .card cite{
 	color: #888;
-	font-size: 1em;
+}
+#about p{
+	margin-top: 5px;
 }
 
 #about p.dropcap:first-letter { 
@@ -97,7 +110,7 @@ section{
 	float: left; 
 	font-size: 75px; 
 	line-height: 60px; 
-	padding-top: 4px; 
+	padding-top: 15px; 
 	padding-right: 8px; 
 	padding-left: 3px; 
 	font-family: Georgia; 
@@ -142,4 +155,5 @@ footer.page-footer{
 .social .linkedin h2 {
 		background: url(../images/linkedin.png) left center no-repeat;
 }
+
 
