@@ -6,4 +6,7 @@ $(document).ready(function(){
     setInterval(function(){
     	$('#intro h2 span').addClass('animated bounce');
     }, 2000);
+
+
+    $('.scrollspy').scrollSpy();
 });

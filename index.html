@@ -23,10 +23,10 @@
 				<div class="col s12">
 					<a href="#" class="brand-logo"><img src="images/logo.png" alt="Fotis Adamakis - Front End Developer"></a>
 					<ul class="right hide-on-med-and-down">
-						<li><a href="#">About</a></li>
-						<li><a href="#">Experience</a></li>
-						<li><a href="#">Education</a></li>
-						<li><a href="#">Contact</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#experience">Experience</a></li>
+						<li><a href="#education">Education</a></li>
+						<li><a href="#contact">Contact</a></li>
 					</ul>
 				</div>
 			</div>
@@ -38,9 +38,9 @@
 			<h2>Senior Front End Developer and <span>Scrum Master</span></h2>
 		</section>
 
-		<div id="push"></div>
+		<div id="push" class="scrollspy"></div>
 
-		<section id="about">  
+		<section id="about" class="scrollspy">  
 			<div class="container"> 
 				<div class="row pull">
 					<div class="col l10 offset-l1 m12 offset-m0 s12">
@@ -71,7 +71,7 @@
 			</div>
 		</section>
 
-		<section id="skills">
+		<section id="skills" class="scrollspy">
 			<div class="container">
 				<div class="row">
 					<div class="col m10 offset-m1">
@@ -113,7 +113,7 @@
 				</div>
 			</section>
 
-			<section id="experience">
+			<section id="experience" class="scrollspy">
 				<div class="container">
 					<div class="row">
 						<div class="col l10 offset-l1 m12 offset-m0 s12">
@@ -140,7 +140,7 @@
 				</div>
 			</section>
 
-			<section id="education">
+			<section id="education" class="section scrollspy">
 				<div class="container">
 					<div class="row">
 						<div class="col l10 offset-l1 m12 offset-m0 s12">
@@ -170,11 +170,10 @@
 
 		</main>
 
-		<footer class="page-footer">
-
+		<footer id="contact" class="page-footer scrollspy" >
 			<div class="container">		
 				<div class="row social">
-					<div class="col offset-l2 l4  s12 twitter">
+					<div class="col l4  s12 twitter">
 						<a href="http://twitter.com/fadamakis" target="_blank">
 							<header>
 								<h2 class="title">@fadamakis</h2>
@@ -188,6 +187,13 @@
 							</header>
 						</a>
 					</div>
+					<div class="col l4  s12 facebook">
+						<a href="http://facebook.com/fadamakis" target="_blank">
+							<header>
+								<h2 class="title">/fadamakis</h2>
+							</header>
+						</a>
+					</div>
 				</div>
 			</div>
 
@@ -196,7 +202,7 @@
 					<div class="row">
 						<div class="col offset-m1 m10">
 							© 2015 Fotis Adamakis
-							<a class="grey-text text-lighten-4 right" href="#!"><i class="mdi-hardware-keyboard-arrow-up"></i></a>
+							<a href="#push" class="grey-text text-lighten-4 right scrollspy" href="#!"><i class="mdi-hardware-keyboard-arrow-up"></i></a>
 						</div>
 					</div>
 				</div>
