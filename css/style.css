@@ -163,6 +163,9 @@ footer.page-footer{
 .social .linkedin h2 {
 		background: url(../images/linkedin.png) left center no-repeat;
 }
+.social .facebook h2 {
+		background: url(../images/facebook.png) left center no-repeat;
+}
 
 
 #experience h3,
